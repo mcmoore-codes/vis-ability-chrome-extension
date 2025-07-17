@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Vis-Ability",
+    "description": "A chrome extension that allows users to adjust the size and color of a website's font and background.",
+    "version": "1.0",
+    "permissions": ["tabs","activeTab", "scripting", "fontSettings"],
+    "action":{
+        "default_popup":"index.html",
+        "default_icon":{
+            "16":"vis-logo.png",
+            "24":"vis-logo.png",
+            "32":"vis-logo.png"
+        }
+    },
+    "background":{
+        "service_worker": "content.js"
+    }
+}

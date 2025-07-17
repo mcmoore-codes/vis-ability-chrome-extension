@@ -1,0 +1,11 @@
+{
+ "scripts": {
+  "build-prod": "parcel build src/index.html"
+ },
+ "dependencies": {
+  "@axe-core/cli": "^4.10.0"
+ },
+ "devDependencies": {
+  "axe-core": "^4.10.2"
+ }
+}
